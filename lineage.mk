@@ -15,6 +15,9 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
 
+# Display HAL
+NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
+
 # Fingerprint for aries (from stock)
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=D5803
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_FINGERPRINT=Sony/D5803/D5803:6.0.1/23.5.A.1.291/2769308465:user/release-keys
