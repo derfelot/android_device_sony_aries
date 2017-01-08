@@ -81,8 +81,8 @@ PRODUCT_PACKAGES += \
     power.aries
 
 # NFC config
-PRODUCT_PACKAGES += \
-    nfc_nci.pn54x.default
+# PRODUCT_PACKAGES += \
+#     nfc_nci.pn54x.default
 
 # Telephony Packages (AOSP)
 PRODUCT_PACKAGES += \
